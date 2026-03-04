@@ -2,6 +2,101 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="#3772E7">
-</LinearLayout>>
+    android:background="@color/background"
+    android:padding="@dimen/gap_16">
+    <LinearLayout
+        android:id="@+id/panel_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/gap_12"
+        android:layout_marginBottom="@dimen/gap_24">
+        <TextView
+            android:layout_width="@dimen/zero_size"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@color/text_secondary"
+            android:textSize="@dimen/header_size"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"/>
+        <ImageView
+            android:layout_width="@dimen/icon_large"
+            android:layout_height="@dimen/icon_large"
+            android:src="@drawable/ic_search"
+            android:visibility="gone"
+            app:tint="@color/icon_tint"
+            android:padding="@dimen/gap_12"
+            android:contentDescription="@string/search"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_size"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_size"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginBottom="@dimen/gap_16"
+            android:text="@string/search"
+            android:textSize="@dimen/header_size"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_primary"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:icon="@drawable/ic_search"
+            app:iconGravity="textStart"
+            app:iconPadding="@dimen/gap_8"
+            android:textAllCaps="false"
+            app:iconTint="@color/icon_color"
+            app:cornerRadius="@dimen/corner_radius_16"
+            android:backgroundTint="@color/button_background" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/library"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_size"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/gap_16"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/library"
+            android:textSize="@dimen/header_size"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_primary"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:icon="@drawable/ic_media"
+            app:iconGravity="textStart"
+            android:textAllCaps="false"
+            app:iconPadding="@dimen/gap_8"
+            app:iconTint="@color/icon_color"
+            app:cornerRadius="@dimen/corner_radius_16"
+            android:backgroundTint="@color/button_background" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_size"
+            android:layout_weight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/settings"
+            android:textSize="@dimen/header_size"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_primary"
+            app:icon="@drawable/ic_settings"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:iconGravity="textStart"
+            app:iconPadding="@dimen/gap_8"
+            app:iconTint="@color/icon_color"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/corner_radius_16"
+            android:backgroundTint="@color/button_background" />
+
+    </LinearLayout>
+</LinearLayout>

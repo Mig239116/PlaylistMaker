@@ -2,4 +2,25 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#3772E7</color>
+    <color name="background">@color/blue</color>
+    <color name="text_secondary">@color/white</color>
+    <color name="icon_color">@color/black</color>
+    <color name="button_background">@color/white</color>
+    <color name="text_primary">@color/black</color>
+    <color name="settings_background">@color/white</color>
+    <color name="icon_tint">#1A1B22</color>
+    <color name="settings_icon_secondary">#AEAFB4</color>
+    <color name="knob_color">#00D6C3</color>
+    <color name="track_color">#76EAE0</color>
+    <color name="search_background">#FFFFFF</color>
+    <color name="search_text_primary">#1A1B22</color>
+    <color name="search_field_background">#E6E8EB</color>
+    <color name="search_placeholder">#AEAFB4</color>
+    <color name="tab_bar_divider">#E6E8EB</color>
+    <color name="tab_active">#3772E7</color>
+    <color name="tab_inactive">#1A1B22</color>
+    <color name="library_background">#FFFFFF</color>
+    <color name="library_text_primary">#1A1B22</color>
+    <color name="library_tab_indicator">#1A1B22</color>
 </resources>
