@@ -8,8 +8,17 @@
     <string name="support">Написать в поддержку</string>
     <string name="user_agreement">Пользовательское соглашение</string>
     <string name="back">Назад</string>
+    <string name="clear_search">Очистить поисковый запрос</string>
     <string name="empty_library_text">Ваша медиатека пуста</string>
     <string name="empty_library">Иллюстрация пустой медиатеки</string>
     <string name="tracks">Треки</string>
     <string name="playlists">Плейлисты</string>
+    <string name="share_app_link">https://practicum.yandex.ru/android-developer/</string>
+    <string name="share_message">Привет! Посмотри курс по Android-разработке в Практикуме: %s</string>
+    <string name="support_email">IgnatenkoMikel@yandex.ru</string>
+    <string name="support_subject">Сообщение разработчикам и разработчицам приложения Playlist Maker</string>
+    <string name="support_body">Спасибо разработчикам и разработчицам за крутое приложение!</string>
+    <string name="user_agreement_url">https://yandex.ru/legal/practicum_offer/</string>
+    <string name="share_chooser_title">Поделиться через</string>
+    <string name="mail_chooser_title">Отправить письмо</string>
 </resources>
