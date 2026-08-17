@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">@color/yp_black</color>
+    <color name="text_primary">@color/yp_white</color>
+    <color name="settings_background">@color/yp_black</color>
+    <color name="icon_tint">@color/yp_white</color>
+    <color name="settings_icon_secondary">@color/yp_white</color>
+    <color name="search_background">@color/yp_black</color>
+    <color name="search_field_background">@color/yp_white</color>
+    <color name="search_placeholder">@color/yp_black</color>
+    <color name="tab_inactive">@color/yp_white</color>
+    <color name="library_background">@color/yp_black</color>
+    <color name="library_text_primary">@color/yp_white</color>
+    <color name="library_tab_indicator">@color/yp_white</color>
+    <color name="switch_thumb_checked">@color/yp_blue</color>
+    <color name="switch_track_checked">#7A3772E7</color>
+</resources>

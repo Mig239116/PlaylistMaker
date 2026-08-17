@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="yp_black">#1A1B22</color>
+    <color name="yp_white">#FFFFFF</color>
+    <color name="yp_blue">#3772E7</color>
+    <color name="yp_blue_light">#9FBBF3</color>
+    <color name="yp_text_gray">#AEAFB4</color>
+    <color name="yp_light_gray">#E6E8EB</color>
+    <color name="switch_thumb_checked">#00D6C3</color>
+    <color name="switch_track_checked">#7A76EAE0</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="blue">#3772E7</color>
-    <color name="background">@color/blue</color>
-    <color name="text_secondary">@color/white</color>
-    <color name="icon_color">@color/black</color>
-    <color name="button_background">@color/white</color>
-    <color name="text_primary">@color/black</color>
-    <color name="settings_background">@color/white</color>
-    <color name="icon_tint">#1A1B22</color>
-    <color name="settings_icon_secondary">#AEAFB4</color>
-    <color name="knob_color">#00D6C3</color>
-    <color name="track_color">#76EAE0</color>
-    <color name="search_background">#FFFFFF</color>
-    <color name="search_text_primary">#1A1B22</color>
-    <color name="search_field_background">#E6E8EB</color>
-    <color name="search_placeholder">#AEAFB4</color>
-    <color name="tab_bar_divider">#E6E8EB</color>
-    <color name="tab_active">#3772E7</color>
-    <color name="tab_inactive">#1A1B22</color>
-    <color name="library_background">#FFFFFF</color>
-    <color name="library_text_primary">#1A1B22</color>
-    <color name="library_tab_indicator">#1A1B22</color>
+    <color name="blue">@color/yp_blue</color>
+    <color name="background">@color/yp_blue</color>
+    <color name="text_secondary">@color/yp_white</color>
+    <color name="icon_color">@color/yp_black</color>
+    <color name="button_background">@color/yp_white</color>
+    <color name="text_primary">@color/yp_black</color>
+    <color name="settings_background">@color/yp_white</color>
+    <color name="icon_tint">@color/yp_black</color>
+    <color name="settings_icon_secondary">@color/yp_text_gray</color>
+    <color name="search_background">@color/yp_white</color>
+    <color name="search_text_primary">@color/yp_black</color>
+    <color name="search_field_background">@color/yp_light_gray</color>
+    <color name="search_placeholder">@color/yp_text_gray</color>
+    <color name="tab_bar_divider">@color/yp_light_gray</color>
+    <color name="tab_active">@color/yp_blue</color>
+    <color name="tab_inactive">@color/yp_black</color>
+    <color name="library_background">@color/yp_white</color>
+    <color name="library_text_primary">@color/yp_black</color>
+    <color name="library_tab_indicator">@color/yp_black</color>
+    <color name="text_main_primary">@color/yp_black</color>
 </resources>

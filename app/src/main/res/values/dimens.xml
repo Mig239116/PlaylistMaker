@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="gap_4">4dp</dimen>
+    <dimen name="gap_8">8dp</dimen>
+    <dimen name="gap_12">12dp</dimen>
     <dimen name="gap_16">16dp</dimen>
+    <dimen name="gap_24">24dp</dimen>
     <dimen name="header_height">56dp</dimen>
     <dimen name="settings_size">16sp</dimen>
-    <dimen name="gap_12">12dp</dimen>
-    <dimen name="gap_8">8dp</dimen>
     <dimen name="header_size">22sp</dimen>
+    <dimen name="corner_radius_8">8dp</dimen>
     <dimen name="corner_radius_16">16dp</dimen>
-    <dimen name="gap_24">24dp</dimen>
+    <dimen name="search_bar_height">52dp</dimen>
+    <dimen name="search_field_height">36dp</dimen>
+    <dimen name="search_icon_size">16dp</dimen>
+    <dimen name="search_clear_width">40dp</dimen>
+    <dimen name="search_clear_padding_vertical">10dp</dimen>
     <dimen name="settings_list_item_height">61dp</dimen>
     <dimen name="icon_large">48dp</dimen>
     <dimen name="divider_height">0.5dp</dimen>
