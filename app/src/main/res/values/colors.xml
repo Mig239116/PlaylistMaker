@@ -31,4 +31,6 @@
     <color name="library_text_primary">@color/yp_black</color>
     <color name="library_tab_indicator">@color/yp_black</color>
     <color name="text_main_primary">@color/yp_black</color>
+    <color name="track_name">#000000</color>
+    <color name="track_meta">@color/yp_text_gray</color>
 </resources>

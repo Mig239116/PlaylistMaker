@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/MainContainer"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/search_background"
-    android:focusable="true"
-    android:focusableInTouchMode="true">
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/panel_header"
@@ -26,13 +28,24 @@
         <EditText
             android:id="@+id/search_edit_text"
             style="@style/SearchEditText"
-            android:hint="@string/search"
-            android:imeOptions="actionDone"
-            android:inputType="text"
-            android:maxLines="1" />
+            android:hint="@string/search" />
 
         <ImageView
             android:id="@+id/clear_button"
-            style="@style/SearchClearButton" />
+            style="@style/SearchClearButton"
+            android:visibility="gone" />
     </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/gap_16"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="5"
+        tools:listitem="@layout/tracks_view" />
 </LinearLayout>
