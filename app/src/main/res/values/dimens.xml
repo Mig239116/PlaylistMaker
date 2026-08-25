@@ -24,4 +24,13 @@
     <dimen name="icon_small">24dp</dimen>
     <dimen name="zero_size">0dp</dimen>
     <dimen name="tab_text_size">12sp</dimen>
+    <dimen name="track_item_height">61dp</dimen>
+    <dimen name="track_item_padding_start">13dp</dimen>
+    <dimen name="track_item_padding_end">12dp</dimen>
+    <dimen name="track_artwork_size">45dp</dimen>
+    <dimen name="track_artwork_corner_radius">2dp</dimen>
+    <dimen name="track_name_text_size">16sp</dimen>
+    <dimen name="track_meta_text_size">11sp</dimen>
+    <dimen name="track_dot_size">13dp</dimen>
+    <dimen name="track_info_margin_top">1dp</dimen>
 </resources>
