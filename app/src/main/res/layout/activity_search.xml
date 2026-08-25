@@ -65,6 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:gravity="center"
+            android:textColor="@color/text_primary"
             android:text="@string/nothing_found"
             android:textSize="19sp"/>
     </LinearLayout>
@@ -83,6 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:gravity="center"
+            android:textColor="@color/text_primary"
             android:text="@string/no_connection"
             android:textSize="19sp"/>
 
@@ -93,6 +95,7 @@
             android:layout_marginTop="24dp"
             android:text="@string/update"
             android:textSize="14sp"
+            android:textAllCaps="false"
             android:textColor="@color/update_button_text"
             app:backgroundTint="@color/update_button_color"
             app:cornerRadius="54dp"/>
