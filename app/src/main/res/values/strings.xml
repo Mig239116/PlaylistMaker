@@ -21,4 +21,7 @@
     <string name="user_agreement_url">https://yandex.ru/legal/practicum_offer/</string>
     <string name="share_chooser_title">Поделиться через</string>
     <string name="mail_chooser_title">Отправить письмо</string>
+    <string name="nothing_found">Ничего не нашлось</string>>
+    <string name="no_connection">Проблемы со связью\n\nЗагрузка не удалась. Проверьте под подключение к интернету</string>
+    <string name="update">Обновить</string>
 </resources>
