@@ -12,7 +12,8 @@ import com.google.android.material.switchmaterial.SwitchMaterial
 
 class SettingsActivity: AppCompatActivity() {
 
-    var darkTheme = false
+    var darkTheme: Boolean = false
+        private set
     private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
