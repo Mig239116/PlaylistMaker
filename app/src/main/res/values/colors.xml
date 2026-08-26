@@ -33,4 +33,6 @@
     <color name="text_main_primary">@color/yp_black</color>
     <color name="track_name">#000000</color>
     <color name="track_meta">@color/yp_text_gray</color>
+    <color name="update_button_color">@color/yp_black</color>
+    <color name="update_button_text">@color/yp_white</color>
 </resources>

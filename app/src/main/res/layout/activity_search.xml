@@ -28,6 +28,8 @@
         <EditText
             android:id="@+id/search_edit_text"
             style="@style/SearchEditText"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
             android:hint="@string/search" />
 
         <ImageView
@@ -48,4 +50,56 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:itemCount="5"
         tools:listitem="@layout/tracks_view" />
+
+    <LinearLayout
+        android:id="@+id/placeholder_found_nothing"
+        style="@style/PlaceHolderSearch">
+
+        <ImageView
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:src="@drawable/ic_library_empty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@color/text_primary"
+            android:text="@string/nothing_found"
+            android:textSize="19sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/placeholder_no_connection"
+        style="@style/PlaceHolderSearch">
+
+        <ImageView
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:src="@drawable/ic_no_connection"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@color/text_primary"
+            android:text="@string/no_connection"
+            android:textSize="19sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/update"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textColor="@color/update_button_text"
+            app:backgroundTint="@color/update_button_color"
+            app:cornerRadius="54dp"/>
+    </LinearLayout>
+
+
 </LinearLayout>
