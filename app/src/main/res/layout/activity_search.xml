@@ -50,6 +50,38 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:itemCount="5"
         tools:listitem="@layout/tracks_view" />
+    <LinearLayout
+        android:id="@+id/history_layout"
+        style="@style/PlaceHolderSearch"
+        android:gravity="start">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="42dp"
+            android:textSize="19sp"
+            android:textColor="@color/text_primary"
+            android:fontFamily="@font/ys_display_medium"
+            android:text="@string/history_label"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/history_recycler_view"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/tracks_view"/>
+        
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear_history_button"
+            style="@style/SearchSupportButton"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/clear_history" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/placeholder_found_nothing"
@@ -90,15 +122,8 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/update_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
             android:text="@string/update"
-            android:textSize="14sp"
-            android:textAllCaps="false"
-            android:textColor="@color/update_button_text"
-            app:backgroundTint="@color/update_button_color"
-            app:cornerRadius="54dp"/>
+            style="@style/SearchSupportButton"/>
     </LinearLayout>
 
 
